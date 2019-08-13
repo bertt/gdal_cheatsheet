@@ -34,6 +34,12 @@ $ ogr2ogr -f "PostgreSQL" PG:"dbname=postgres user=postgres password=postgres" "
 $ ogr2ogr -f geojson reproj.geojson -t_srs EPSG:28992 190313_bomen.geojson
 ```
 
+## Select distinct on csv file
+
+```
+$ ogrinfo -q data.csv -sql "SELECT distinct field_2, field_3 FROM data"
+```
+
 ## Spatial query
 
 ```
