@@ -2,7 +2,7 @@
 
 Frequently used GDAL (ogr2ogr) commands for spatial data processing.
 
-## ogr2ogr
+## OGR2OGR
 
 ### Convert CSV to GeoJSON
 
@@ -44,4 +44,12 @@ $ ogrinfo -q data.csv -dialect sqlite -sql "SELECT distinct field_2, field_3 FRO
 
 ```
 $ ogr2ogr -f geojson reproj1.geojson -spat 136356.6585 455832.7428 136922.3581 456107.1495 reproj.geojson
+```
+
+## GDAL
+
+### GdalInfo on tif file
+
+```
+$ gdalinfo /data/i09bz13857.tif
 ```
