@@ -8,7 +8,7 @@ Run on Docker on Windows:
 $ docker run -v d:\test:/data  geodata/gdal ogr2ogr
 ```
 
-Run on Docker on max/Linux:
+Run on Docker on Mac/Linux:
 
 ```
 $ docker run -v $(pwd):/data  geodata/gdal ogr2ogr
