@@ -1,6 +1,6 @@
 # gdal_cheatsheet
 
-Frequently used GDAL (ogr2ogr) commands from spatial data processing.
+Frequently used GDAL (ogr2ogr) commands for spatial data processing.
 
 ## ogr2ogr
 
