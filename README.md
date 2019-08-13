@@ -2,6 +2,19 @@
 
 Frequently used GDAL (ogr2ogr) commands for spatial data processing.
 
+Run on Docker on Windows:
+
+```
+$ docker run -v d:\test:/data  geodata/gdal ogr2ogr
+```
+
+Run on Docker on max/Linux:
+
+```
+$ docker run -v $(pwd):/data  geodata/gdal ogr2ogr
+```
+
+
 ## OGR2OGR
 
 ### Convert CSV to GeoJSON
