@@ -53,3 +53,9 @@ $ ogr2ogr -f geojson reproj1.geojson -spat 136356.6585 455832.7428 136922.3581 4
 ```
 $ gdalinfo /data/i09bz13857.tif
 ```
+
+### GdalWarp on tif file
+
+```
+$ gdalwarp -t_srs EPSG:3857 /data/i09bz1.tif
+```
