@@ -22,6 +22,12 @@ $ ogr2ogr -f GeoJSON footprints.geojson WFS:"http://geodata.nationaalgeoregister
 $ ogr2ogr -f GeoJSON output.geojsoninput.shp
 ```
 
+## Load GeoJSON to PostGIS
+
+```
+$ ogr2ogr -f "PostgreSQL" PG:"dbname=postgres user=postgres password=postgres" "./sample_Data/buildings_utrecht.geojson" -nln buildings_utrecht
+```
+
 ## Reproject from EPSG:4326 to EPSG:28992
 
 ```
